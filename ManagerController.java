@@ -30,12 +30,13 @@ import java.time.LocalTime;
 import java.util.Map;
 import java.util.TreeMap; 
 
-/** */
-*  This file controls the manager interface for menu, inventory, employee, sales report, X-report, restock report, and product usage.
-*  FXML grabs the controller and uses the action handlers to ensure that everything works. Database operations run at the same time and reports
-*  any of the failures that SQL gets. 
-*  @author Dylan, Trishna, Hiya, Selsa, and Sophia
-*/
+/**
+ * This file controls the manager interface for menu, inventory, employee, sales report, X-report, restock report, and product usage.
+ * FXML grabs the controller and uses the action handlers to ensure that everything works. Database operations run at the same time and reports
+ * any of the failures that SQL gets.
+ *
+ * @author Dylan, Trishna, Hiya, Selsa, and Sophia
+ */
 
 public class ManagerController {
     // Data basehelper used to open connections for manager operations
